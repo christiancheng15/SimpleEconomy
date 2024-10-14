@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+		"trigger": "minecraft:using_item",
+			"conditions": {
+					"item": {
+						"predicates": {
+							"minecraft:custom_data": "{banknote:1b}"
+						}
+					}
+				}
+		}
+	},
+	"rewards": {
+		"function": "mon:bank/get_note"
+	}
+}
