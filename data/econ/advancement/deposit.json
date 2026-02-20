@@ -7,7 +7,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "help": {
+                            "deposit": {
                                 "min": 1
                             }
                         }
@@ -18,7 +18,7 @@
         }
     },
     "rewards": {
-        "experience":0,
-        "function": "mon:help"
+        "experience": 0,
+        "function": "econ:bank/deposit"
     }
 }

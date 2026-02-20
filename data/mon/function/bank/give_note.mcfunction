@@ -1,2 +1,0 @@
-$give @p paper[item_name='{"bold":false,"color":"green","text":"$$(value) Banknote"}',custom_data={value:$(value),banknote:1b},enchantment_glint_override=true,food={nutrition:1,saturation:1,can_always_eat:true,eat_seconds:69420}] 1
-$tellraw @s ["",{"text":"Withdrawal successful: $$(value). Your current balance is now $","bold":false,"color":"yellow"},{"score":{"name":"*","objective":"bank"}, "color":"yellow"}]

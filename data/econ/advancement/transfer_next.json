@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "deposit_check": {
+        "transfer_next_check": {
             "conditions": {
                 "player": [
                     {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "withdraw": {
+                            "transfer_next": {
                                 "min": 1
                             }
                         }
@@ -18,7 +18,7 @@
         }
     },
     "rewards": {
-        "experience":0,
-        "function": "mon:bank/bn"
+        "experience": 0,
+        "function": "econ:bank/transfer_next"
     }
 }

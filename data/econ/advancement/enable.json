@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "mon:enable"
+        "function": "econ:enable"
     }
 }

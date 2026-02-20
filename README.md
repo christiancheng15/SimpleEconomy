@@ -1,28 +1,37 @@
 # SimpleEconomy
-Minecraft 1.21+ Economy Datapack
+Version: 2.0.0
+Minecraft 1.21.11+ Economy Datapack
 
-### Withdraw
-`/trigger withdraw set XX`
+Diamond-based bank economy for Minecraft servers
 
 ### Deposit
-Banknote in hand + Right Click
+`/trigger deposit`
+
+### Deposit Quantity
+`/trigger deposit set <qty>`
+
+### Withdraw
+`/trigger withdraw`
+
+### Withdraw Quantity
+`/trigger withdraw set <qty>`
+
+### Transfer
+`/trigger transfer set <qty>`
+This opens an online-player list in chat (10 per page). Click a player to complete transfer.
 
 ### Help
 `/trigger help`
 
-### Creating a Banker
-1. Configure items in `banker.mcfunction`
-2. Ensure proper banknote configuration:
+### Balance
+`/trigger balance`
 
-```
-{id: "minecraft:paper", count: 1, components: {"item_name":'{"bold":false,"color":"green","text":"$100 Banknote"}',"food":{"saturation":1,"nutrition":1,"can_always_eat":true,"eat_seconds":69420},enchantment_glint_override:true, custom_data: {banknote:true,value:100}}}
-```
+### Leaderboard
+`/trigger leaderboard`
+Shows top 10 balances (descending)
 
-Replace $100 with any amount
-3. Rename Villager as "Banker" (case-sensitive) using a nametag
+### ATM Menu
+`/trigger atm`
 
 # To-do List
-- Merchants
-- Check Balance
-- Pay Other Players
 - Player Shops

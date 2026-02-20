@@ -1,6 +1,6 @@
 {
     "values": [
-        "mon:load",
-        "mon:enable"
+        "econ:load",
+        "econ:enable"
     ]
 }
