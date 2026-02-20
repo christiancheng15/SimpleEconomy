@@ -1,7 +1,7 @@
 tellraw @s {"color":"red","text":"No eligible players found online for transfer."}
 scoreboard players set @s xfer_amt 0
 scoreboard players set @s xfer_page 1
-scoreboard players reset @s transfer
+scoreboard players set @s transfer -1
 scoreboard players enable @s transfer
 scoreboard players reset @s transfer_pick
 scoreboard players reset @s transfer_prev

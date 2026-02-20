@@ -1,5 +1,5 @@
 # SimpleEconomy
-Version: 2.0.0
+Version: 2.0.1
 Minecraft 1.21.11+ Economy Datapack
 
 Diamond-based bank economy for Minecraft servers

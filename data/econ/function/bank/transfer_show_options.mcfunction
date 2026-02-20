@@ -44,7 +44,7 @@ execute if score @s xfer_page matches 2.. run tellraw @s ["",{"text":"[Prev]","c
 execute if entity @a[tag=!econ_xfer_sender,tag=!econ_xfer_seen,limit=1] run tellraw @s ["",{"text":"Page ","color":"gray"},{"score":{"name":"*","objective":"xfer_page"},"color":"yellow"},{"text":"  ","color":"gray"},{"text":"[Next]","color":"aqua","click_event":{"action":"run_command","command":"/trigger transfer_next"}}]
 
 tellraw @s {"text":"Click [Select] (or the number) to complete transfer.","color":"gray"}
-scoreboard players reset @s transfer
+scoreboard players set @s transfer -1
 scoreboard players enable @s transfer
 scoreboard players set @s transfer_pick 0
 scoreboard players enable @s transfer_pick
