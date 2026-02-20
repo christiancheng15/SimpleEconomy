@@ -3,7 +3,6 @@ scoreboard players enable @a withdraw
 scoreboard players enable @a deposit
 scoreboard players enable @a transfer
 scoreboard players enable @a balance
-scoreboard players enable @a leaderboard
 scoreboard players enable @a atm
 scoreboard players enable @a help
 

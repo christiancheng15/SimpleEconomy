@@ -6,7 +6,6 @@ scoreboard objectives remove transfer_pick
 scoreboard objectives remove transfer_next
 scoreboard objectives remove transfer_prev
 scoreboard objectives remove balance
-scoreboard objectives remove leaderboard
 scoreboard objectives remove atm
 scoreboard objectives remove help
 scoreboard objectives remove econ_tmp

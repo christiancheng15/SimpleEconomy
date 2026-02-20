@@ -26,10 +26,6 @@ This opens an online-player list in chat (10 per page). Click a player to comple
 ### Balance
 `/trigger balance`
 
-### Leaderboard
-`/trigger leaderboard`
-Shows top 10 balances (descending)
-
 ### ATM Menu
 `/trigger atm`
 

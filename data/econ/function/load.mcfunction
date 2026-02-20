@@ -8,7 +8,6 @@ scoreboard objectives add transfer_pick trigger "transfer_pick"
 scoreboard objectives add transfer_next trigger "transfer_next"
 scoreboard objectives add transfer_prev trigger "transfer_prev"
 scoreboard objectives add balance trigger "balance"
-scoreboard objectives add leaderboard trigger "leaderboard"
 scoreboard objectives remove atm
 scoreboard objectives add atm trigger "atm"
 scoreboard objectives remove help
